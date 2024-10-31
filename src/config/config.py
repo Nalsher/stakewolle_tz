@@ -1,7 +1,6 @@
 from dotenv import load_dotenv
 import os
 
-
 load_dotenv()
 
 DB_NAME = os.getenv("POSTGRES_DB")
@@ -14,11 +13,14 @@ class Settings:
 
     @property
     def url_return(self):
-        return f"postgresql+asyncpg://{DB_USER}:{DB_PASSWORD}@db:5432/{DB_PASSWORD}"
+        return (f"postgresql+asyncpg://{DB_USER}:"
+                f"{DB_PASSWORD}@db:5432/{DB_PASSWORD}")
 
     @property
     def jwt_return(self):
         return f"{JWT_KEY}"
 
-url = Settings.url_return
-jwt_key = Settings.jwt_return
+
+settings = Settings()
+url = settings.url_return
+jwt_key = settings.jwt_return

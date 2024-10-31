@@ -1,21 +1,34 @@
 from src.schemas.base import Base
 from pydantic import EmailStr
-from typing import Union
 
 
-class CreateUserRequest(Base):
+class CreateUserRequestSchema(Base):
     username: str
     password: str
-    email: str
-    referals: Union[EmailStr, int , None] = None
+    email: EmailStr
+    referals: str | None = None
 
-class UpdateUserRequest(Base):
+
+class UpdateUserRequestSchema(Base):
     username: str | None = None
     password: str | None = None
     email: str | None = None
 
 
-class GetUserResponse:
+class GetCodeByEmailSchema(Base):
+    email: EmailStr
+
+
+class CreateReferalRequestSchema(Base):
+    code: str
+
+
+class AuthRequestSchema(Base):
+    username: str
+    password: str
+
+
+class GetUserResponseSchema:
     id: int
     username: str
     password: str
@@ -23,5 +36,5 @@ class GetUserResponse:
     referals: list[int] | None = None
 
 
-class GetUserResponses:
-    user: list[GetUserResponse]
+class GetUserResponsesSchema:
+    user: list[GetUserResponseSchema]

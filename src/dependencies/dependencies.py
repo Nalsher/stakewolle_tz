@@ -1,10 +1,16 @@
-from src.repositories.user.user import UserRepository as _UserRepository
-from src.services.user.user import UserService as _UserService
+from src.repositories.redis.redis import RedisRepository
+from src.repositories.user.user import UserRepository
+from src.services.user.user import UserService
+from src.repositories.referals.referal import ReferalRepository
 
+ReferalRepo = ReferalRepository()
+UserRepo = UserRepository()
+RedisRepo = RedisRepository()
 
-UserRepository = _UserRepository()
+Service = UserService(UserRepository=UserRepo,
+                      ReferalRepository=ReferalRepo, RedisRepository=RedisRepo
+                      )
 
-UserService = _UserService(UserRepository=UserRepository)
 
 async def UserServiceReturn():
-    return UserService
+    return Service
