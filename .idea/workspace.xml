@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e510ca78-deb0-4ed0-9263-d9726e6ba214" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repositories/redis/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repositories/redis/redis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repositories/referals/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repositories/referals/referal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routing/auth/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routing/refer/referal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routing/user/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/redis/config/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/postgresql/base/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/postgresql/base/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/postgresql/tables/tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/postgresql/tables/tables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dependencies/dependencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependencies/dependencies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositories/user/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/repositories/user/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schemas/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/schemas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/user/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/user/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/jwt/jwt.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/jwt/jwt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +29,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2o4HO0NhY78pN8jfYkxzIrP8IPm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
